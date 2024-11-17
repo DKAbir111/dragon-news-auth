@@ -6,7 +6,7 @@ export default function Login() {
     const navigate = useNavigate()
     const location = useLocation()
     const [error, setError] = useState("")
-    console.log(location)
+    // console.log(location)
     const { Login } = useContext(AuthContext)
     const handleLogin = (event) => {
         event.preventDefault();
